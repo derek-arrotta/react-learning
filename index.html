@@ -50,75 +50,75 @@
 </script>
 
 <script type="text/babel">
-    // header
-        const headerRoot = document.querySelector("#header");
-        const header = <h1 className="title">About me</h1>;
-        function App1() {
-            return header;
-        }
-        ReactDOM.render(<App1 />, headerRoot);
+  // header
+  const headerRoot = document.querySelector("#header");
+  const header = <h1 className="title">About me</h1>;
+  function App1() {
+    return header;
+  }
+  ReactDOM.render(<App1 />, headerRoot);
     
-    // main
+  // main
         
-        // intro
-        const introRoot = document.querySelector("#introduction");
-        const intro = <p>Hi I'm Sally I'm 25 and below this line you'll find more information about me.</p>;
-        function App2() {
-            return intro;
-        }
-        ReactDOM.render(<App2 />, introRoot);
+  // intro
+  const introRoot = document.querySelector("#introduction");
+  const intro = <p>Hi I'm Sally I'm 25 and below this line you'll find more information about me.</p>;
+  function App2() {
+    return intro;
+  }
+  ReactDOM.render(<App2 />, introRoot);
 
-        // education
-        const eduRoot = document.querySelector("#Education");
-        const edu =
-            <div>
-            <p>I have studied at:</p>
-                <ul>
-                    <li>IES BEZMILIANA</li>
-                    <li>Minnesota University</li>
-                </ul>
-            </div>;
-        function App3() {
-            return edu;
-        }
-        ReactDOM.render(<App3 />, eduRoot);
+  // education
+  const eduRoot = document.querySelector("#Education");
+  const edu =
+      <div>
+      <p>I have studied at:</p>
+          <ul>
+              <li>IES BEZMILIANA</li>
+              <li>Minnesota University</li>
+          </ul>
+      </div>;
+  function App3() {
+      return edu;
+  }
+  ReactDOM.render(<App3 />, eduRoot);
 
-        // works
-        const worksRoot = document.querySelector("#works_list");
-        const works =
-            <div>
-                <p>I have worked at:</p>
-                    <ul>
-                        <li>Github as Engineer during 2018 and there I have to
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        </li>
-                        <li>Jetbrains as Project manager during 2019 and I'm still working there. My work consist in
-                            A assumenda autem dolorem doloremque
-                        </li>
-                    </ul>
-            </div>;
-        function App4() {
-            return works;
-        }
-        ReactDOM.render(<App4 />, worksRoot);
+  // works
+  const worksRoot = document.querySelector("#works_list");
+  const works =
+      <div>
+          <p>I have worked at:</p>
+              <ul>
+                  <li>Github as Engineer during 2018 and there I have to
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  </li>
+                  <li>Jetbrains as Project manager during 2019 and I'm still working there. My work consist in
+                      A assumenda autem dolorem doloremque
+                  </li>
+              </ul>
+      </div>;
+  function App4() {
+      return works;
+  }
+  ReactDOM.render(<App4 />, worksRoot);
 
-        // contact
-        //const logo = require('./pic.jpg');
-        const contactRoot = document.querySelector("#Contact-section");
-        const contact = 
-            <div>
-            <img src={require('./pic.jpg')} />
-            <p>My contact information: </p>
-            <address id="Contact-info">
-                <p>My name is Sally</p>
-                <p>My email is: <a href="mailto://sally@IntenetExplorer.old">sally@IntenetExplorer.old</a></p>
-                <p>My phone number is: <a href="tel:+34100572415">+34 100 57 24 15</a></p>
-            </address>
-            </div>;
-        function App5() {
-            return contact;
-        }
-        ReactDOM.render(<App5 />, contactRoot);
+  // contact
+  //const logo = require('./pic.jpg');
+  const contactRoot = document.querySelector("#Contact-section");
+  const contact = 
+      <div>
+      <img src='pic.jpg' />
+      <p>My contact information: </p>
+      <address id="Contact-info">
+          <p>My name is Sally</p>
+          <p>My email is: <a href="mailto://sally@IntenetExplorer.old">sally@IntenetExplorer.old</a></p>
+          <p>My phone number is: <a href="tel:+34100572415">+34 100 57 24 15</a></p>
+      </address>
+      </div>;
+  function App5() {
+      return contact;
+  }
+  ReactDOM.render(<App5 />, contactRoot);
         
 </script>
 
